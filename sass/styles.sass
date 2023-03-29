@@ -1,0 +1,47 @@
+@use "variaveis"
+
+    
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: sans-serif
+
+body
+    background-color: variaveis.$preto-color  
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+
+.container
+    height: variaveis.$largura-width-height
+    text-align: center
+
+    h1
+        color: variaveis.$branco-color
+        font-size: 50px
+        margin-bottom: 20px
+        white-space: nowrap
+
+    input
+        width: 200px
+        height: 30px
+        background-color: variaveis.$cinza-color
+        color: variaveis.$branco-color
+        border-radius: 20px
+        border: 0
+        padding: 0px 10px
+    button
+        width: 80px
+        height: 30px
+        border: 0
+        border-radius: 20px
+        background-color: variaveis.$azul-color
+        color: variaveis.$branco-color
+        margin-bottom: 20px
+    ul
+        list-style: none
+
+        li
+            color: variaveis.$branco-color
