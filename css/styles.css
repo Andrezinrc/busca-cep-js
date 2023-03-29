@@ -15,7 +15,6 @@ body {
 
 .container {
   height: 300px;
-  text-align: center;
 }
 .container h1 {
   color: white;
@@ -41,10 +40,16 @@ body {
   color: white;
   margin-bottom: 20px;
 }
+.container .center-cont {
+  text-align: center;
+}
 .container ul {
   list-style: none;
 }
 .container ul li {
+  color: white;
+}
+.container #text {
   color: white;
 }
 
